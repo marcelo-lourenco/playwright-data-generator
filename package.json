@@ -1,0 +1,24 @@
+{
+  "name": "playwright-data-generator",
+  "version": "1.0.0",
+  "description": "Example of using Playwright with the Gerador-BR data generator",
+  "main": "index.js",
+  "scripts": {
+    "test:headed:chromium": "playwright test --headed --project=chromium",
+    "test:headed:firefox": "playwright test --headed --project=firefox",
+    "test:headed:webkit": "playwright test  --headed --project=webkit",
+    "test:ui:chromium": "playwright test --ui --project=chromium",
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "marcelolourenco <qabi.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3"
+  },
+  "dependencies": {
+    "gerador-br": "^1.2.2"
+  }
+}
