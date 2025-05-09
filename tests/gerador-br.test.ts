@@ -62,7 +62,6 @@ test('Validates data generation WITHOUT MASK', async ({ page }) => {
 
   // Conta Bancária
   const cb = gerar.contaBancaria();
-  console.log("teste", cb.agenciaDv)
   await page.locator('#fldCodigoBanco').fill(cb.codigoBanco);
   await page.locator('#fldNomeBanco').fill(cb.nomeBanco);
   await page.locator('#fldAgencia').fill(cb.agencia);
