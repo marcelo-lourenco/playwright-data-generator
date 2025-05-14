@@ -14,11 +14,11 @@ Example project for automated user interface (UI) tests using **Playwright** and
 2. Open your terminal in the project's root folder.
 3. Run the commands to install dependencies and Playwright browsers:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
-## Test Execution
+## Test Run
 
 Examples of commands to run the tests:
 
