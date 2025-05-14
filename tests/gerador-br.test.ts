@@ -279,8 +279,8 @@ test('Validates data generation according to variables (mask, gender, sexual ori
 
   // Lorem Ipsum
   await page.locator('#fldPalavra').fill(gerar.palavra());
-  await page.locator('#fldSentenca').fill(gerar.sentenca());
-  await page.locator('#fldParagrafos').fill(gerar.paragrafo());
+  await page.locator('#fldSentenca').fill(gerar.sentenca(15));
+  await page.locator('#fldParagrafos').fill(gerar.paragrafo(3,8));
 
   // Envia o formulário
   await page.getByRole('button', { name: 'Enviar' }).click();
