@@ -24,7 +24,6 @@ Examples of commands to run the tests:
 
 ```bash
 npx playwright test --headed --project=chromium
-npx playwright test --headed --project=firefox
 npx playwright test --headed --project=webkit
 npx playwright test --ui --project=chromium
 npx playwright test
