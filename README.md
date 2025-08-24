@@ -46,4 +46,4 @@ npx playwright show-report
 The auto-fill example will be on the following form:
 [Formulário para Teste - Gerador BR](https://marcelo-lourenco.github.io/gerador-br/formulario-para-teste)
 
-## Documentation for [gerador-br](https://marcelo-lourenco.github.io/gerador-br/)
+## Documentation for [gerador-br](https://box4.dev/gerador-br/)
