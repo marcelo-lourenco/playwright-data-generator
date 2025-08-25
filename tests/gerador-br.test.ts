@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { gerar } from 'gerador-br';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('https://marcelo-lourenco.github.io/gerador-br/formulario-para-teste/');
+  await page.goto('https://box4.dev/gerador-br/formulario-para-teste/');
 });
 
 test('Validates data generation WITHOUT MASK', async ({ page }) => {
