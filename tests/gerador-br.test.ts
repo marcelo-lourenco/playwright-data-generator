@@ -90,7 +90,7 @@ test('Validates data generation WITHOUT MASK', async ({ page }) => {
   await page.locator('#fldSentenca').fill(gerar.sentenca());
   await page.locator('#fldParagrafos').fill(gerar.paragrafo());
 
-  await page.getByRole('button', { name: 'Enviar' }).click();
+  await page.getByTestId('button-enviar').click();
 
   await page.waitForTimeout(3000);
 });
@@ -136,7 +136,7 @@ test('Validates data generation WITH MASK', async ({ page }) => {
   await page.locator('#fldSentenca').fill(gerar.sentenca());
   await page.locator('#fldParagrafos').fill(gerar.paragrafo());
 
-  await page.getByRole('button', { name: 'Enviar' }).click();
+  await page.getByTestId('button-enviar').click();
 
   await page.waitForTimeout(3000);
 
@@ -162,7 +162,7 @@ test('Validates data generation with MASK = false and with informed state', asyn
   await page.locator('#fldCartaoCredito').fill(gerar.cartaoCredito(false).numero);
 
   // Envia o formulário
-  await page.getByRole('button', { name: 'Enviar' }).click();
+  await page.getByTestId('button-enviar').click();
   await page.waitForTimeout(2000);
 });
 
@@ -186,7 +186,7 @@ test('Validates data generation with MASK = true and with informed state', async
   await page.locator('#fldCartaoCredito').fill(gerar.cartaoCredito(true).numero);
 
   // Envia o formulário
-  await page.getByRole('button', { name: 'Enviar' }).click();
+  await page.getByTestId('button-enviar').click();
   await page.waitForTimeout(2000);
 });
 
@@ -283,7 +283,6 @@ test('Validates data generation according to variables (mask, gender, sexual ori
   await page.locator('#fldParagrafos').fill(gerar.paragrafo(3,8));
 
   // Envia o formulário
-  await page.getByRole('button', { name: 'Enviar' }).click();
+  await page.getByTestId('button-enviar').click();
   await page.waitForTimeout(2000);
 });
-
