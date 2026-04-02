@@ -1,6 +1,6 @@
 # Automated Tests with Playwright and Gerador-BR
 
-Example project for automated user interface (UI) tests using **Playwright** and **Gerador BR** for creating mock data
+Generating Brazilian mock data with **Playwright** and the **Gerador-BR** library.
 
 ## Setup
 
@@ -15,9 +15,9 @@ Example project for automated user interface (UI) tests using **Playwright** and
 2. Open your terminal in the project's root folder.
 3. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 ## Test Run
 
@@ -46,8 +46,9 @@ npx playwright show-report
 ## Target Page
 
 The auto-fill example will be on the following form:
-[Formulário para Teste - Gerador BR](https://box4.dev/gerador-br/formulario-para-teste)
+[Formulário para Teste - Gerador BR](https://box4.dev/gerador-br/formulario-para-teste/?utm_source=github&utm_medium=playwright_data_generator)
 
 ## Documentation
 
-[gerador-br](https://box4.dev/gerador-br/)
+* [Playwright Documentation](https://playwright.dev/docs/intro)
+* [Gerador-BR Documentation](https://box4.dev/gerador-br/documentacao/?utm_source=github&utm_medium=playwright_data_generator)
